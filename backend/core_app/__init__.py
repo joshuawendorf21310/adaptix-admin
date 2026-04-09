@@ -1,0 +1,1 @@
+"""Adaptix Admin backend package."""

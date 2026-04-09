@@ -28,8 +28,8 @@ interface TodoItem {
 }
 
 export default function AccessLogsPage() {
-  const auditState = useApi<AuditReport>('/api/audit/production');
-  const todosState = useApi<TodoItem[]>('/api/audit/todos');
+  const auditState = useApi<AuditReport>('/api/v1/audit/production');
+  const todosState = useApi<TodoItem[]>('/api/v1/audit/todos');
 
   const loading = auditState.loading || todosState.loading;
   const audit = auditState.data;

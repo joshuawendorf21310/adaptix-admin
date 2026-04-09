@@ -40,7 +40,7 @@ const ROLE_TONE: Record<string, 'critical' | 'warning' | 'accent' | 'success' | 
 };
 
 export default function RoleBuilderPage() {
-  const { data: personnel, loading, error } = useApi<PersonnelMember[]>('/personnel/');
+  const { data: personnel, loading, error } = useApi<PersonnelMember[]>('/api/v1/personnel/');
 
   const roleCounts = personnel
     ? personnel.reduce<Record<string, number>>((acc, p) => {

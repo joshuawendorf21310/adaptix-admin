@@ -22,8 +22,8 @@ interface AuditReport {
 }
 
 export default function PolicySandboxPage() {
-  const issuesState = useApi<AuditIssues>('/api/audit/issues');
-  const auditState = useApi<AuditReport>('/api/audit/production');
+  const issuesState = useApi<AuditIssues>('/api/v1/audit/issues');
+  const auditState = useApi<AuditReport>('/api/v1/audit/production');
 
   const loading = issuesState.loading || auditState.loading;
   const issues = issuesState.data;

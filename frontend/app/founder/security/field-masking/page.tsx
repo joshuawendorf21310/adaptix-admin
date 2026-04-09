@@ -35,8 +35,8 @@ const MASKED_FIELDS_BY_ROLE: Record<string, string[]> = {
 };
 
 export default function FieldMaskingPage() {
-  const personnelState = useApi<PersonnelMember[]>('/personnel/');
-  const auditState = useApi<AuditReport>('/api/audit/production');
+  const personnelState = useApi<PersonnelMember[]>('/api/v1/personnel/');
+  const auditState = useApi<AuditReport>('/api/v1/audit/production');
 
   const loading = personnelState.loading || auditState.loading;
   const personnel = personnelState.data;
