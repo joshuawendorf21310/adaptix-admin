@@ -94,5 +94,21 @@
     "total_accounts": 0,
     "reviewed_accounts": 0,
     "revoked_accounts": 0
+  },
+  {
+    "id": "cfe09335-71bc-46af-bdc5-26c149accb38",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T22:05:04.561819+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T22:05:04.560792",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
   }
 ]

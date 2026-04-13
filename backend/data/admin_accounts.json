@@ -82,5 +82,19 @@
     "reviewed_at": null,
     "reviewed_by": null,
     "tags": []
+  },
+  {
+    "user_id": "new-user",
+    "tenant_id": "test-tenant",
+    "account_type": "user",
+    "primary_role": "viewer",
+    "additional_roles": [],
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-04-13T22:05:04.547752+00:00",
+    "created_by": "test-founder",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "tags": []
   }
 ]

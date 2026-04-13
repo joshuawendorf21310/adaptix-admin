@@ -88,5 +88,20 @@
     "approval_required": false,
     "approved_by": null,
     "approved_at": null
+  },
+  {
+    "id": "f4a90ad9-68e5-416b-8c92-aef9ef639284",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T22:05:04.558140+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
   }
 ]

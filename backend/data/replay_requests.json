@@ -82,5 +82,19 @@
     "authorized_at": null,
     "executed_at": null,
     "result": {}
+  },
+  {
+    "id": "70449df1-5daa-488f-88af-ad9d140309e1",
+    "webhook_id": "webhook-123",
+    "event_ids": [],
+    "reason": "Test replay",
+    "requested_by": "test-founder",
+    "requested_at": "2026-04-13T22:05:04.407891+00:00",
+    "status": "pending",
+    "dry_run": true,
+    "authorized_by": null,
+    "authorized_at": null,
+    "executed_at": null,
+    "result": {}
   }
 ]
