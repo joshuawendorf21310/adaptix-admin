@@ -1,0 +1,46 @@
+# Docker Compose for local development
+version: '3.8'
+
+services:
+  admin-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8012:8012"
+    environment:
+      - ADAPTIX_ADMIN_APP_NAME=adaptix-admin
+      - ADAPTIX_ADMIN_ENV=development
+      - ADAPTIX_ADMIN_ALLOW_DEV_AUTH=true
+      - ADAPTIX_ADMIN_DEFAULT_TENANT_ID=00000000-0000-0000-0000-000000000001
+      - ADAPTIX_ADMIN_CORS_ORIGINS=http://localhost:3000,http://localhost:3001
+      - ADAPTIX_ADMIN_DEV_SECRET=adaptix-admin-dev-secret
+    volumes:
+      - ./backend/data:/app/data
+      - ./backend/core_app:/app/core_app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8012/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  admin-frontend:
+    image: node:18-alpine
+    working_dir: /app
+    ports:
+      - "3001:3000"
+    environment:
+      - NEXT_PUBLIC_ADMIN_API_BASE=http://localhost:8012
+      - NODE_ENV=development
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: sh -c "npm install && npm run dev"
+    depends_on:
+      - admin-backend
+    restart: unless-stopped
+
+volumes:
+  admin-data:
