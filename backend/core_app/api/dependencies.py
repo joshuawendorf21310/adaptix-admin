@@ -18,7 +18,11 @@ async def get_current_user(authorization: str | None = Header(default=None)) -> 
     if not authorization or not authorization.lower().startswith("bearer "):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing bearer token")
 
-    payload = decode_access_token(authorization.split(" ", 1)[1])
+    try:
+        payload = decode_access_token(authorization.split(" ", 1)[1])
+    except (ValueError, KeyError) as e:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=f"Invalid token: {e}") from e
+
     role = payload.get("role", "viewer")
     return CurrentUser(
         user_id=payload["sub"],

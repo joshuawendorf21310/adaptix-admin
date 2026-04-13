@@ -115,7 +115,7 @@ async def get_audit_event(
 # Feature 63-66: Export workflows
 @router.post("/export")
 async def export_audit_events(
-    format: str = Query("json", regex="^(json|csv)$"),
+    format: str = Query("json", pattern="^(json|csv)$"),
     event_type: str | None = Query(None),
     date_from: datetime | None = Query(None),
     date_to: datetime | None = Query(None),

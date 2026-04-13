@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: adaptix-admin-backend
+Version: 1.0.0
+Summary: Production-grade Adaptix Admin governance, feature-flag, audit, legal-hold, and AI policy system
+Requires-Python: >=3.11
+Requires-Dist: fastapi<1,>=0.115
+Requires-Dist: uvicorn<1,>=0.30
+Requires-Dist: pydantic<3,>=2.7
+Provides-Extra: dev
+Requires-Dist: pytest<8,>=7.4; extra == "dev"
+Requires-Dist: pytest-asyncio<1,>=0.21; extra == "dev"
+Requires-Dist: httpx<1,>=0.25; extra == "dev"
+Requires-Dist: pytest-cov<5,>=4.1; extra == "dev"
+Dynamic: requires-python

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "4d212fb4-3ad7-4aa7-ac47-b69c7ba452ba",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T20:09:04.638024+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
+  },
+  {
+    "id": "ef8ebaf6-bade-4a60-8463-6d5e17c5048f",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T20:09:44.740946+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
+  },
+  {
+    "id": "46188357-9541-4cad-a7f9-826e0bbaf766",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T20:10:13.064054+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
+  },
+  {
+    "id": "9067d27b-db87-4120-a333-edcb9e74ac83",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T20:10:28.577294+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
+  }
+]

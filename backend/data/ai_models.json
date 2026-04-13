@@ -1,0 +1,50 @@
+[
+  {
+    "model_id": "gpt-4",
+    "model_name": "GPT-4",
+    "provider": "OpenAI",
+    "allowed": true,
+    "requires_human_review": false,
+    "max_tokens": null,
+    "temperature_limit": null,
+    "redaction_required": false,
+    "retention_days": null,
+    "tags": []
+  },
+  {
+    "model_id": "gpt-4",
+    "model_name": "GPT-4",
+    "provider": "OpenAI",
+    "allowed": true,
+    "requires_human_review": false,
+    "max_tokens": null,
+    "temperature_limit": null,
+    "redaction_required": false,
+    "retention_days": null,
+    "tags": []
+  },
+  {
+    "model_id": "gpt-4",
+    "model_name": "GPT-4",
+    "provider": "OpenAI",
+    "allowed": true,
+    "requires_human_review": false,
+    "max_tokens": null,
+    "temperature_limit": null,
+    "redaction_required": false,
+    "retention_days": null,
+    "tags": []
+  },
+  {
+    "model_id": "gpt-4",
+    "model_name": "GPT-4",
+    "provider": "OpenAI",
+    "allowed": true,
+    "requires_human_review": false,
+    "max_tokens": null,
+    "temperature_limit": null,
+    "redaction_required": false,
+    "retention_days": null,
+    "tags": []
+  }
+]

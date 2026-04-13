@@ -1,0 +1,58 @@
+[
+  {
+    "user_id": "new-user",
+    "tenant_id": "test-tenant",
+    "account_type": "user",
+    "primary_role": "viewer",
+    "additional_roles": [],
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-04-13T20:09:04.627091+00:00",
+    "created_by": "test-founder",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "tags": []
+  },
+  {
+    "user_id": "new-user",
+    "tenant_id": "test-tenant",
+    "account_type": "user",
+    "primary_role": "viewer",
+    "additional_roles": [],
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-04-13T20:09:44.730089+00:00",
+    "created_by": "test-founder",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "tags": []
+  },
+  {
+    "user_id": "new-user",
+    "tenant_id": "test-tenant",
+    "account_type": "user",
+    "primary_role": "viewer",
+    "additional_roles": [],
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-04-13T20:10:13.053238+00:00",
+    "created_by": "test-founder",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "tags": []
+  },
+  {
+    "user_id": "new-user",
+    "tenant_id": "test-tenant",
+    "account_type": "user",
+    "primary_role": "viewer",
+    "additional_roles": [],
+    "is_active": true,
+    "last_login_at": null,
+    "created_at": "2026-04-13T20:10:28.566378+00:00",
+    "created_by": "test-founder",
+    "reviewed_at": null,
+    "reviewed_by": null,
+    "tags": []
+  }
+]

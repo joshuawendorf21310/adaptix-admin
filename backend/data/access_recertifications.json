@@ -1,0 +1,66 @@
+[
+  {
+    "id": "183c95bd-ba35-41f2-a262-a565778eee31",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T20:09:04.641804+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T20:09:04.640617",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
+  },
+  {
+    "id": "e6be6105-437b-48f1-a71a-55bcfec97dbe",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T20:09:44.744651+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T20:09:44.743567",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
+  },
+  {
+    "id": "ee25a494-3fd8-4511-a556-17e23ed59b3c",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T20:10:13.067786+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T20:10:13.066704",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
+  },
+  {
+    "id": "b90f6899-b5d8-4037-ade1-c0b51051ae43",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T20:10:28.581000+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T20:10:28.579926",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
+  }
+]
