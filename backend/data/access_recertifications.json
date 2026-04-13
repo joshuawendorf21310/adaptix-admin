@@ -62,5 +62,37 @@
     "total_accounts": 0,
     "reviewed_accounts": 0,
     "revoked_accounts": 0
+  },
+  {
+    "id": "e70423cf-0481-43e1-8df6-d3c199fd02d6",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T21:59:58.220784+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T21:59:58.219735",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
+  },
+  {
+    "id": "0416cd82-263f-40e0-9e80-f17ea084b7ed",
+    "campaign_name": "Q2 2026 Recertification",
+    "target_roles": [
+      "agency_admin",
+      "security_officer"
+    ],
+    "target_tenant_ids": [],
+    "started_at": "2026-04-13T22:02:53.303912+00:00",
+    "started_by": "test-founder",
+    "due_at": "2026-05-13T22:02:53.302818",
+    "completed_at": null,
+    "total_accounts": 0,
+    "reviewed_accounts": 0,
+    "revoked_accounts": 0
   }
 ]

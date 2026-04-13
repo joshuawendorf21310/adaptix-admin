@@ -58,5 +58,35 @@
     "approval_required": false,
     "approved_by": null,
     "approved_at": null
+  },
+  {
+    "id": "75ae411e-9284-4600-9235-1d674ddc6257",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T21:59:58.217280+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
+  },
+  {
+    "id": "7a4da7cd-af47-4326-a1e4-593f0e65dc07",
+    "user_id": "test-user",
+    "tenant_id": "test-tenant",
+    "role": "viewer",
+    "assigned_by": "test-founder",
+    "assigned_at": "2026-04-13T22:02:53.300052+00:00",
+    "expires_at": null,
+    "revoked_by": null,
+    "revoked_at": null,
+    "reason": "New team member",
+    "approval_required": false,
+    "approved_by": null,
+    "approved_at": null
   }
 ]
